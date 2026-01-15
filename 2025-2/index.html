@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="CMSC 137: Data Communications and Networking, Institute of Computer Science, University of the Philippines Los Banos">
+      <meta name="author" content="Joseph Anthony C. Hermocilla">
+
+      <title>CMSC 137: Data Communicatons and Networking (Second Sem 2025-2026)</title>
+
+      <!-- Bootstrap core CSS -->
+      <link href="../lib/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Custom styles for this template -->
+      <link href="../lib/css/scrolling-nav.css" rel="stylesheet">
+
+      <style>
+         .cmscwide {
+            width:100%;
+            height:100%;
+            background-image:url('networks.png');
+            background-size:cover;
+         }
+      </style>
+
+   </head>
+
+   <body id="page-top">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">CMSC 137</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#staff">Staff</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="https://www.youtube.com/@cmsc137-networks-uplb">Videos</a>
+                  </li>
+                 <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#resources">Resources</a>
+                  </li>
+                    <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="https://srg-ics-uplb.github.io/krownet/index.html">KROWNET</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <header class="bg-primary text-white cmscwide">
+         <div class="container text-center">
+            <h1><span style="background-color:blue;">Data Communications and Networking</span></h1>
+            <p class="lead"><span style="color:yellow;background-color:black;">Second Semester AY 2025-2026</a></p>
+         </div>
+      </header>
+
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>About</h2>
+                  <h5>Catalog Description</h5>
+                  <div class="container">
+                  <table class="table table-condensed table-sm">
+                     <tbody>
+                        <tr>
+                           <td>Course Number and Section</td>
+                           <td>CMSC 137 </td>
+                        </tr>
+                        <tr>
+                           <td>Course Title</td>
+                           <td>Data Communications and Networking</td>
+                        </tr>
+                        <tr>
+                           <td>Description</td>
+                           <td>Basic principles of data communications; design issues and protocols in the layers of data network; networks for various applications.</td>
+                        </tr>
+                        <tr>
+                           <td>Prerequisites</td>
+                           <td>CMSC 125</td>
+                        </tr>
+                        <tr>
+                           <td>Credit</td>
+                           <td>3 units</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </div>
+                  <h5>Aim</h5>
+                  <p>The aim of this course is to introduce students to data communications and networking concepts.</p>
+                  <h5>Objectives</h5>
+                  At the end of this course the student should be able to: 
+                  <ol>
+                     <li>explain how data is transmitted over communication channels;</li>
+                     <li>identify and describe the different layers of the OSI reference model and TCP/IP protocol suite, including the protocols available for each layer;</li>
+                     <li>describe how different architectures of Local Area Networks and Internetworks operate, together with the services they provide;</li>
+                     <li>protect and secure data in networked environments;</li>
+                     <li>develop network-enabled applications using a high-level programming language;and</li>
+                     <li>perform basic network administration.</li>
+                  </ol>
+                  <h5>Topics (based on <a href="../acm2023-nc.pdf">ACM's 2023 CS Curriculum Guidelines: Networking and Communication</a>)</h5>
+                  <ol>
+                     <li>NC-Fundamentals</li>
+                     <li>NC-Networked Applications</li>
+                     <li>NC-Reliable Support</li>
+                     <li>NC-Routing and Forwarding</li>
+                     <li>NC-Single Hop Communication</li>
+                     <li>NC-Network Security</li>
+                     <li>NC-Mobility</li>
+                     <li>NC-Emerging Topics</li>
+                  </ol>
+                  <h5>Evaluation/Grading(Tentative)</h5>
+                     <table class="table table-sm">
+                        <tr>
+                           <td>(A) Quizzes/Assignments</td>
+                           <td>15%</td>
+                        </tr>
+                        <tr>
+                           <td>(B) Lab Exercises</td>
+                           <td>45%</td>
+                        </tr>
+                         <tr>
+                           <td>(C) Midterm Exam</td>
+                           <td>20%</td>
+                        </tr>
+                        <tr>
+                           <td>(D) Final Exam</td>
+                           <td>20%</td>
+                        </tr>
+                        <tr>
+                           <td>Final Grade </td>
+                           <td>A+B+C+D=100%</td>
+                        </tr>
+                     </table>
+                     Passing grade is 55%. No grade of 4.0 and INC will be given. Grading scale is shown below. 
+                     <table class="table table-sm table-striped">
+                        <tr>
+                           <td>0.00</td>
+                           <td>54.99</td>
+                           <td>5.0</td>
+                        </tr>
+                        <tr>
+                           <td>55.00</td>
+                           <td>59.99</td>
+                           <td>3.0</td>
+                        </tr>
+                        <tr>
+                           <td>60.00</td>
+                           <td>64.99</td>
+                           <td>2.75</td>
+                        </tr>
+                        <tr>
+                           <td>65.00</td>
+                           <td>69.99</td>
+                           <td>2.5</td>
+                        </tr>
+                        <tr>
+                           <td>70.00</td>
+                           <td>74.99</td>
+                           <td>2.25</td>
+                        </tr>
+                        <tr>
+                           <td>75.00</td>
+                           <td>79.99</td>
+                           <td>2.0</td>
+                        </tr>
+                        <tr>
+                           <td>80.00</td>
+                           <td>84.99</td>
+                           <td>1.75</td>
+                        </tr>
+                        <tr>
+                           <td>85.00</td>
+                           <td>89.99</td>
+                           <td>1.5</td>
+                        </tr>
+                        <tr>
+                           <td>90.00</td>
+                           <td>94.99</td>
+                           <td>1.25</td>
+                        </tr>
+                        <tr>
+                           <td>95.00</td>
+                           <td>100</td>
+                           <td>1.0</td>
+                        </tr>
+                     </table>
+                  <h5>Attendance Policy</h5>
+                  <p>University policy on attendance will apply. No makeup for missed quizzes. Makeup exam can be given if a valid excuse slip is presented.</p>
+                  <h5>Collaboration Policy</h5>
+                  <p></p>
+                  <h5>Honor Code</h5>
+                     <ul>
+                        <li>Properly acknowledge help received.</li>
+                        <li>No looking at solutions/programs from previous years.</li>
+                        <li>No sharing of code with other students.</li>
+                        <li>Be ready to explain your code.</li>
+                     </ul> 
+                  <h5>Google Classroom: TBA</h5>
+            </div>
+         </div>
+      </section>
+      
+      <section id="staff" class="bg-light">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>Staff</h2>
+                  <table class="table table-striped table-sm">
+                     <thead>
+                     <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Email</th>
+                     </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><a href="https://jachermocilla.org">Joseph Anthony C. Hermocilla</a></td>
+                           <td>Lecture/Laboratory Instructor</td>
+                           <td>jchermocilla@up.edu.ph</td>
+                        </tr>
+                       <tr>
+                           <td>Fermin Roberto G. Lapitan</td>
+                           <td>Laboratory Instructor</td>
+                           <td>fglapitan@up.edu.ph</td>
+                        </tr>
+                       <tr>
+                           <td>Von Michael B. Arellano</td>
+                           <td>Laboratory Instructor</td>
+                           <td>vbarellano@up.edu.ph</td>
+                        </tr>
+                        <tr>
+                           <td>Leonard Paul A. Garchitorena</td>
+                           <td>Laboratory Instructor</td>
+                           <td>lagarchitorena@up.edu.ph</td>
+                        </tr>
+                        <tr>
+                           <td>Juan Carlo I. Tumibay</td>
+                           <td>Laboratory Instructor</td>
+                           <td>jitumibay@up.edu.ph</td>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="schedule">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>Schedule</h2>
+                  <table class="table table-sm table-striped table-bordered">
+                     <thead class="thead-inverse">
+                        <tr>
+                           <th style="width:10%">Week</th>
+                           <th>Date</th>
+                           <th>Lecture Topics</th>
+                           <th>Learning Materials</th>
+                           <th>Laboratory</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <th scope="row">1</th>
+                           <td>Jan 27-31</td>
+                           <td></td>
+                           <td colspan="3"><b>COURSE OVERVIEW AND ADMINISTRATIVE MATTERS</b></td>
+                        <tr>
+                           <th scope="row">2</th>
+                           <td>Feb 3-7</td>
+                           <td>Data Communications and Computer Networks Overview</td>
+                           <td>
+                              <ul>
+                                 <li><a href="https://youtu.be/MHsNPWqy1ew">Data Communication Systems</a></li>
+                                 <li><a href="https://www.youtube.com/watch?v=p99RI58SiZE">The Internet</a></li>
+                                 <li><a href="https://www.youtube.com/watch?v=x8OpCqksxqs">TCP/IP Protocol Suite</a></li>
+                                 <li><a href="https://www.youtube.com/watch?v=aSW5H6sBsnk">OSI Reference Model</a></li>
+                              </ul>
+                           </td>
+                           <td>Configuring a Linux Box for TCP/IP</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">3</th>
+                           <td>Feb 10-14</td>
+                           <td>Physical Layer</td>
+                           <td>
+                              <ul>
+                                 <li><a href="https://www.youtube.com/watch?v=TdFVnRO3oCo">Signals</a></li>
+                                 <li><a href="https://www.youtube.com/watch?v=QqwSB3hx-6w">Performance</a></li>
+                              </ul>
+                           </td>
+                           <td>Network Design: Wiring</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">4</th>
+                           <td>Feb 17-21</td>
+                           <td>Physical Layer</td>
+                           <td>
+
+                              <ul>
+                                 <li>[moved] Digital Transmission(<a href="https://www.youtube.com/watch?v=vRTOdqu3234">Part 1</a>, <a href="https://www.youtube.com/watch?v=E5GLW0T5IEk">Part 2</a>)</li>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=rGTCsZQ5XbE">Analog Transmission</a></li>
+                             </ul>
+                           </td>
+                           <td>Packet Analysis</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">5</th>
+                           <td>Feb 24-28</td>
+                           <td>Data Link Layer</td>
+                           <td>
+
+                              <ul>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=2S0Q-wLrPEg">Bandwidth Utilization</a></li>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=ityb5vBumeE">Transmission Media</a></li>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=yx2ZY6iCcAU">Switching</a></li>
+                             </ul>
+                           </td>
+                           <td>(Bonus: Making a patch cable)</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">6</th>
+                           <td>Mar 3-7</td>
+                           <td>Data Link Layer</td>
+                           <td>
+                              <ul>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=d0LE5HJcSKs">Data Link Layer</a></li>
+                                 <li>[moved,async] <a href="https://www.youtube.com/watch?v=bk4qoU7oJ0o">Data Link Control</a></li>
+                                 <li>[moved,async] <a href="https://www.youtube.com/watch?v=8oY_wBV5Xuw">HDLC and PPP</a></li>
+                             </ul>
+                           </td>
+                           <td>Subnet Calculations</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">7</th>
+                           <td>Mar 10-14</td>
+                           <td>Data Link Layer</td>
+                           <td>
+
+                              <ul>
+                                 <li>[moved] Media Access Control (<a href="https://www.youtube.com/watch?v=9RpErSqNUag">Part 1</a> <a href="https://youtu.be/jYACEBhSGrM?list=PLmjUxJWsirkStQGY6aOWNwieVVDQDWasx"> Part 2</a>)</li>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=N_xX1E1CQ-E">Wired LAN: Ethernet</a></li>
+                             </ul>
+                           </td>
+                           <td>IP Routing</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">8</th>
+                           <td>Mar 17-21</td>
+                           <td>
+                          </td>
+                           <td colspan="4">
+                              <ul>
+                                 <li>[moved] Wireless LAN (<a href="https://www.youtube.com/watch?v=tDlIjlyU7zU">IEEE 802.11</a>, <a href="https://youtu.be/uDf3poNLYuw?list=PLmjUxJWsirkStQGY6aOWNwieVVDQDWasx">Bluetooth</a>)</a></li>
+                              </ul>
+ 
+                           <b>MIDTERM EXAM (MARCH 21, 7PM-9PM)</b>
+                           </td>
+                        </tr>
+                        <tr>
+                           <th scope="row"></th>
+                           <td>Mar 24-28</td>
+                           <td></td>
+                           <td colspan="3"><b>READING BREAK</b></td>
+                        </tr>
+                        <tr>
+                           <th scope="row">9</th>
+                           <td>Mar 31-Apr 4</td>
+                           <td>Network Layer 1</td>
+                           <td>
+                              <ul>
+                                  <li>[moved] Addressing(<a href="https://www.youtube.com/watch?v=9ED7NTHlotM">Part 1</a>,<a href="https://www.youtube.com/watch?v=H_rLG-5XqMY">Part 2</a>)</li>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=cvi6GQp7JxQ">The Internet Protocol (IP)</a></li>
+                              </ul>
+                           </td>
+                           <td>Socket Programming 1</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">10</th>
+                           <td>Apr 7-11</td>
+                           <td>Network Layer 2</td>
+                           <td>
+                              <ul>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=Nwxc0IPIVSQ">IP Support Protocols</a></li>
+                                 <li>[moved] <a href="https://www.youtube.com/watch?v=KABSDDUTisY">Routing and Forwarding</a></li>
+                              </ul>
+                           </td>
+                           <td>DNS and BIND9</td>
+                        </tr>
+                        <tr>
+                           <th scope="row"></th>
+                           <td>Apr 17-19</td>
+                           <td></td>
+                           <td colspan="3"><b>LENTEN BREAK</b></td>
+                        </tr>
+                        <tr>
+                           <th scope="row">11</th>
+                           <td>Apr 21-25</td>
+                           <td>Transport Layer 1</td>
+                           <td>
+                              <ul>
+                                 <li>[moved] Trasport Layer Protocols(<a href="https://www.youtube.com/watch?v=HuNJnu_M6Bk">Part 1</a>, <a href="https://www.youtube.com/watch?v=B0Dq3QVYqz4">Part 2</a>)</li>
+                             </ul>
+                           </td>
+                           <td>SSH and GPG</td>
+                        </tr>
+
+                        <tr>
+                           <th scope="row">12</th>
+                           <td>Apr 28-May 2</td>
+                           <td>Application Layer</td>
+                           <td>
+                              <ul>
+                                 <li><a href="https://youtu.be/_UOIRksr5XE">Domain Name System (DNS)</a></li>
+                                 <li><a href="https://youtu.be/lNwY73aI5tI">Electronic Mail (SMTP/POP/IMAP)</a></li>
+                               </ul>
+                           </td>
+                           <td>Network Emulation and Software Defined Networks</td>
+                        </tr>
+
+                        <tr>
+                           <th scope="row">13</th>
+                           <td>May 5-9</td>
+                           <td>Software Defined Networks, Other Wireless Networks</td>
+                           <td>
+                              <ul>
+                                 <li><a href="https://youtu.be/vfD7SONRyAw">Software Defined Networks</a></li>
+                                 <li><a href="https://youtu.be/RN2KQonshCA">Other Wireless Networks</a><//li>
+                              </ul>
+                           </td>
+                           <td>(free lab)</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">14</th>
+                           <td>May 12-16</td>
+                           <td>Peer-to-Peer Networks</a></td>
+                           <td>
+                              <ul>
+                                 <li>Peer-to-Peer Networks</li>
+                              </ul>
+                           </td>
+                           <td>Socket Programming 2</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">15</th>
+                           <td>May 19-23</td>
+                           <td>(Buffer Week/Extra Topics)</td>
+                           <td></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Finals Week</th>
+                           <td>May 26-31</td>
+                           <td></td>
+                           <td><b>FINAL EXAM</b></td>
+                           <td></td>
+                        </tr>
+
+
+<!--
+                        <tr>
+                           <th scope="row">13</th>
+                           <td></td>
+                           <td>TBA</td>
+                           <td></td>
+                           <td></td>
+                        </tr>
+-->
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <section id="resources">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>Resources</h2>
+                  <h5>Textbook</h5>
+                  <p>
+                  [FOR]: Forouzan, B.A.2013.<i>Data Communications and Networking, 5th Ed.</i>McGraw-Hill, New York 
+                  </p>
+                  <h5>Supplementary Textbooks</h5>
+                  <ul> 
+                     <li>Tanenbaum, A. 2003. <i>Computer Networks, 4th Ed.</i> Prentice Hall, Singapore.</li>
+                     <li>Kurose, J.F. and Ross, K.W. 2004. <i>Computer Networking: A Top-Down Approach Featuring the Internet</i>Addison-Wesley.</li>
+                     <li>Peter L. Dordal <i><a href="http://intronetworks.cs.luc.edu/">An Introduction to Computer Networks</a>.</i></li>
+                     <li><i><a href="https://www.computer-networking.info/">Computer Networking: Principles, Protocols, and Practice, 3rd Ed.</a></i></li>
+                     <li><i><a href="https://www.systemsapproach.org/books.html">Computer Networks: A Systems Approach</a></i></li>
+                  </ul>
+                  <h5>Similar DCN Courses</h5>
+                  <ul>
+                     <li><a href="http://www.cs.cmu.edu/~srini/15-441/S10/">15-441, CMU</a></li>
+                     <li><a href="http://www.scs.stanford.edu/09au-cs144/">CS 144, Stanford</a></li>
+                     <li><a href="http://inst.eecs.berkeley.edu/~ee122/fa09/">EE122, UCB</a></li>
+                     <li><a href="http://www.ee.unb.ca/tervo/ece4253/">ECE4253, UNB.CA</a></li>
+                  </ul>
+                  <h5>Software</h5>
+                  <ul>
+                     <li><a href="https://github.com/srg-ics-uplb/ics-netsim">ICS-NetSim</a> (developed by M. Detras, V. Lee, R. Lacaneta,L.J.B. Tirazona, A. Quilang)</li>
+                     <li><a href="https://www.netacad.com/courses/packet-tracer">Cisco Packet Tracer</a></li>
+                     <li><a href="http://www.isi.edu/nsnam/ns/">Network Simulator NS-2</a></li>
+                     <li><a href="https://www.gns3.com/">GNS3</a></li>
+                     <li><a href="http://www.secdev.org/projects/scapy/">Scapy</a></li>
+                     <li><a href="http://mininet.org/">Mininet</a></li>
+                     <li><a href="https://github.com/seed-labs/seed-emulator">SEED Internet Emulator</a></li>
+                     <li><a href="https://github.com/srg-ics-uplb/xv6-net">xv6-net (fork)</a></li>
+                  </ul>
+                  <h5>Others</h5>
+                  <ul>
+                     <li><a href="http://www.ieee802.org/">IEEE 802 LAN/MAN Standards</a></li>
+                     <li><a href="https://www.submarinecablemap.com">Submarine Cable Map</a></li>
+                     <li><a href="http://www.rfc-editor.org/">RFC Editor</a></li>
+                     <li><a href="http://www.ietf.org/">Internet Engineering Task Force</a></li>
+                     <li><a href="https://www.iana.org/">Internet Assigned Numbers Authority</a></li>
+                     <li><a href="https://www.icann.org/">Internet Corporation for Assigned Names and Numbers</a></li>
+                     <li><a href="https://www.apnic.net/">APNIC (RIR for Asia Pacific)</a></li>
+                     <li><a href="http://williamstallings.com/DCC6e.html">DCC 6e Resources</a></li>
+                     <li><a href="http://linux-ip.net/html/">Linux Guide to IP Layer</a></li>
+                     <li><a href="https://bgp.he.net/">Hurricate Electric BGP Toolkit</a></li>
+                     <li><a href="https://beej.us/guide/bgnet/">Beej's Guide to Network Programming</a></li>
+                     <li><a href="https://docs.oracle.com/javase/tutorial/networking/index.html">Java Networking Tutorial</a></li>
+                  </ul>
+                  </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+         <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; 2025 SRG-ICS-UPLB<br/><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a></p>
+         </div>
+         <!-- /.container -->
+      </footer>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="../../lib/vendor/jquery/jquery.min.js"></script>
+      <script src="../../lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="../../lib/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+      <!-- Custom JavaScript for this theme -->
+      <script src="../../lib/js/scrolling-nav.js"></script>
+
+   </body>
+
+</html>
