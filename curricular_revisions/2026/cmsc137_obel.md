@@ -54,12 +54,12 @@ Upon completing the course, students must be able to:
 
 | Course Outcomes | A | B | C | D | E | F | G |
 |-----------------|---|---|---|---|---|---|---|
-| CO 1. Explain how data is transmitted over communication channels. | I | D | | | | | |
-| CO 2. Identify and describe the different layers of the OSI reference model and TCP/IP protocol suite. | I | D | | | | | |
-| CO 3. Describe how different architectures of Local Area Networks and Internetworks operate. | I | D | | | | | |
-| CO 4. Protect and secure data in networked environments. | D | D | | | | | |
-| CO 5. Develop network-enabled applications using a high-level programming language. | D | D | | | | | |
-| CO 6. Perform basic network administration. | D | D | | | | | |
+| CO 1. Explain how data is transmitted over communication channels. | D | D | R | R | R | D | R |
+| CO 2. Identify and describe the different layers of the OSI reference model and TCP/IP protocol suite. | D | D | R | R | R | D | R |
+| CO 3. Describe how different architectures of Local Area Networks and Internetworks operate. | D | D | R | R | R | D | R |
+| CO 4. Protect and secure data in networked environments. | D | D | R | R | R | D | R |
+| CO 5. Develop network-enabled applications using a high-level programming language. | D | D | R | R | R | D | D |
+| CO 6. Perform basic network administration. | D | D | R | R | R | D | R |
 
 > **Legend:** I – Introduced; D – Demonstrated; R – Reinforced
 
